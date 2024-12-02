@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 30px;
+  gap: 10px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+.input {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.input button {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.input input,
+.input button,
+.container button {
+  border-radius: 20px;
+}
+
+.input input {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  font-size: medium;
+}
+
+.input button,
+.container button {
+  background-color: #0ba6ff;
+  border: none;
+  width: 70px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  cursor: pointer;
+  color: white;
+}
+
+.container button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#download {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.container img {
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+}
+
+.screen {
+  display: none;
+}
+
+#error {
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
