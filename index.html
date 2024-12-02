@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="input">
+            <input type="text" id="field" name="URL" pattern="https?://.*" placeholder="Enter the URL" id="field" title="Must start with http:// or https://" required>
+            <button id="submit-btn">Submit</button>
+        </div>
+
+        <img src="" width="300px" height="300px" class="QR screen" id="img">
+        <h1 id="error" style="color: white;"></h1>
+        <button id="download" class="screen">
+            <a href="" download id="download-img">Download QR</a>
+        </button>
+    
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
